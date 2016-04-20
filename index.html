@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="container">
+<h1 class="lead text-center">Custom API's</h1>
+    <div class="col-md-12">
+        <input type="text" id="email" class="col-md-4" placeholder="Enter Email">
+        <button id="getgrav" class="col-md-2">Get Gravitar</button>
+        <div id="gravitar" class="col-md-6"></div>
+    </div>
+
+<div id="arithmetic" class="col-md-12">
+    <input type="text" id="num1" class="col-md-3">
+    <input type="text" id="num2" class="col-md-3">
+    <div id="arithanswer" class="col-md-3"></div>
+    <div class="col-md-12">
+
+    <button id="sum" class="arith">add</button>
+    <button id="subtract" class="arith">Subtract</button>
+    <button id="multiply" class="arith">Multiply</button>
+    <button id="div" class="arith">Divide</button>
+    <button id="getexp">Get Exponent</button>
+
+</div>
+    </div>
+<div id="words">
+    <input type="text" id="sentence" class="col-md-3">
+    <button class="words col-md-1">Count</button>
+    <button class="words col-md-1">Characters</button>
+    <button class="words col-md-1">Average</button>
+    <div id="wordanswer" class="col-md-6"></div>
+
+</div>
+<div id="age" class="col-md-12">
+    <input type="number" id="month" min="1" max="12" placeholder="'Month" class="col-md-1">
+    <input type="number" id="day" min="1" max="31" placeholder = "Day" class="col-md-1">
+    <input type="number" id="year" min="1900" max="2016" placeholder = "Year" class="col-md-1">
+    <button id="getage" class="col-md-2">Calculate Age</button>
+    <div id="ageanswer" class="col-md-7"></div>
+</div>
+</div>
+
+</body>
+</html>
